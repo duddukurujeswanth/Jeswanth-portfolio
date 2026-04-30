@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duddukuru Jeswanth | Frontend Developer</title>
+    <meta name="description" content="Portfolio of Duddukuru Jeswanth, a passionate Frontend Developer skilled in building clean, scalable, and user-focused web experiences.">
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-mode">
+    <!-- Navbar -->
+    <header class="header">
+        <a href="#" class="logo">Duddukuru Jeswanth.</a>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="header-actions">
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Theme">
+                <i class='bx bx-sun' id="theme-icon"></i>
+            </button>
+            <div class="menu-icon" id="menu-icon">
+                <i class='bx bx-menu'></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="home" id="home">
+        <div class="home-content reveal">
+            <h3>Hello, It's Me</h3>
+            <h1>Duddukuru Jeswanth</h1>
+            <h3>And I'm a <span class="multiple-text">Frontend Developer</span></h3>
+            <p>Building clean, scalable, and user-focused web experiences.</p>
+            <div class="social-media">
+                <a href="https://github.com/duddukurujeswanth" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/-jeswanth-d-67-" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=jashwanthroyal56@gmail.com" target="_blank"><i class='bx bx-envelope'></i></a>
+            </div>
+            <div class="btn-group">
+                <a href="#projects" class="btn">View Projects</a>
+                <a href="Duddukuru_Jeswanth_Resume.pdf" class="btn btn-secondary" download>Download Resume</a>
+            </div>
+        </div>
+        <div class="home-img reveal-right">
+            <div class="img-box">
+                <!-- Using the generated image path relative or absolute doesn't matter, we'll copy it later or reference it directly. For now, referencing the local path. -->
+                <img src="C:/Users/jashw/.gemini/antigravity/brain/079c3b12-b6aa-487b-84d2-d94740ac95e5/media__1777558494583.jpg" alt="Duddukuru Jeswanth">
+            </div>
+        </div>
+        <div class="bg-particles"></div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <h2 class="heading reveal">About <span>Me</span></h2>
+        <div class="about-container reveal">
+            <p>Enthusiastic Software Developer skilled in Java and JavaScript, focused on building scalable, user-friendly applications. Passionate about clean design, performance, and solving real-world problems.</p>
+            
+            <div class="education-card">
+                <i class='bx bxs-graduation'></i>
+                <div class="edu-info">
+                    <h3>B.Tech in Information Technology</h3>
+                    <p class="college">Sri Venkateswara College of Engineering</p>
+                    <span class="year">2022 – 2026</span>
+                    <span class="cgpa">CGPA: 9.09</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <h2 class="heading reveal">My <span>Skills</span></h2>
+        <div class="skills-container reveal">
+            <!-- Languages -->
+            <div class="skill-category">
+                <h3>Languages</h3>
+                <div class="skill-tags">
+                    <span class="tag">C</span>
+                    <span class="tag">Java</span>
+                </div>
+            </div>
+            
+            <!-- Frontend -->
+            <div class="skill-category">
+                <h3>Frontend</h3>
+                <div class="skill-tags">
+                    <span class="tag">HTML5</span>
+                    <span class="tag">CSS3</span>
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">Bootstrap</span>
+                    <span class="tag">Tailwind CSS</span>
+                </div>
+            </div>
+            
+            <!-- Database -->
+            <div class="skill-category">
+                <h3>Database</h3>
+                <div class="skill-tags">
+                    <span class="tag">MySQL</span>
+                </div>
+            </div>
+            
+            <!-- Tools -->
+            <div class="skill-category">
+                <h3>Tools</h3>
+                <div class="skill-tags">
+                    <span class="tag">Git</span>
+                    <span class="tag">GitHub</span>
+                    <span class="tag">VS Code</span>
+                    <span class="tag">Figma</span>
+                </div>
+            </div>
+            
+            <!-- Soft Skills -->
+            <div class="skill-category">
+                <h3>Soft Skills</h3>
+                <div class="skill-tags">
+                    <span class="tag">Communication</span>
+                    <span class="tag">Teamwork</span>
+                    <span class="tag">Problem-Solving</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <h2 class="heading reveal">Latest <span>Projects</span></h2>
+        <div class="projects-container">
+            
+            <!-- Project 1 -->
+            <div class="project-card reveal">
+                <div class="project-content">
+                    <h3>Doctor Appointment System (Team Project)</h3>
+                    <p>Responsive platform for appointment scheduling, featuring user authentication, role-based access, and a clean UI.</p>
+                    <div class="tech-stack">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="project-actions">
+                        <a href="https://docspot-mauve.vercel.app/" target="_blank" class="btn btn-small"><i class='bx bx-link-external'></i> Live Demo</a>
+                        <a href="https://github.com/duddukurujeswanth" target="_blank" class="btn btn-small btn-secondary"><i class='bx bxl-github'></i> Code</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project 2 -->
+            <div class="project-card reveal">
+                <div class="project-content">
+                    <h3>Tic Tac Toe Game</h3>
+                    <p>Interactive game with real-time win detection, responsive design, smooth animations, and sound effects.</p>
+                    <div class="tech-stack">
+                        <span>Animations</span>
+                        <span>Game Logic</span>
+                        <span>Modular Code</span>
+                    </div>
+                    <div class="project-actions">
+                        <a href="https://duddukurujeswanth.github.io/Tic-Tac-Toe/" target="_blank" class="btn btn-small"><i class='bx bx-link-external'></i> Live Demo</a>
+                        <a href="https://github.com/duddukurujeswanth/Tic-Tac-Toe" target="_blank" class="btn btn-small btn-secondary"><i class='bx bxl-github'></i> Code</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project 3 -->
+            <div class="project-card reveal">
+                <div class="project-content">
+                    <h3>Weather Application</h3>
+                    <p>Clean UI dashboard using OpenWeather API for real-time weather data with robust error handling.</p>
+                    <div class="tech-stack">
+                        <span>API Integration</span>
+                        <span>Real-time Data</span>
+                        <span>Dashboard</span>
+                    </div>
+                    <div class="project-actions">
+                        <a href="https://duddukurujeswanth.github.io/Weather-Application-/" target="_blank" class="btn btn-small"><i class='bx bx-link-external'></i> Live Demo</a>
+                        <a href="https://github.com/duddukurujeswanth/Weather-Application-" target="_blank" class="btn btn-small btn-secondary"><i class='bx bxl-github'></i> Code</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="certifications" id="certifications">
+        <h2 class="heading reveal">My <span>Certifications</span></h2>
+        <div class="cert-container">
+            <div class="cert-card reveal">
+                <i class='bx bx-certification'></i>
+                <div>
+                    <h3>Oracle Cloud Infrastructure 2025 Generative AI Professional</h3>
+                    <p>Oracle</p>
+                </div>
+            </div>
+            <div class="cert-card reveal">
+                <i class='bx bxs-certification'></i>
+                <div>
+                    <h3>Java Programming Certification</h3>
+                    <p>Recognized Institution</p>
+                </div>
+            </div>
+            <div class="cert-card reveal">
+                <i class='bx bx-trophy'></i>
+                <div>
+                    <h3>Runner-up</h3>
+                    <p>Coding Competition</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="heading reveal">Contact <span>Me</span></h2>
+        <div class="contact-container reveal">
+            <div class="contact-info">
+                <h3>Let's work together</h3>
+                <p>Feel free to reach out for collaborations or just a friendly chat.</p>
+                <div class="info-item">
+                    <i class='bx bx-envelope'></i>
+                    <span>jashwanthroyal56@gmail.com</span>
+                </div>
+                <div class="info-item">
+                    <i class='bx bx-phone'></i>
+                    <span>+91-7207479740</span>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/duddukurujeswanth" target="_blank"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.linkedin.com/in/-jeswanth-d-67-" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                </div>
+            </div>
+            
+            <form action="#" class="contact-form" id="contactForm">
+                <div class="input-box">
+                    <input type="text" id="name" placeholder="Full Name" required>
+                    <input type="email" id="email" placeholder="Email Address" required>
+                </div>
+                <div class="input-box">
+                    <input type="number" id="phone" placeholder="Mobile Number">
+                    <input type="text" id="subject" placeholder="Email Subject" required>
+                </div>
+                <textarea name="" id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>&copy; 2026 by Duddukuru Jeswanth | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="main.js"></script>
+</body>
+</html>
