@@ -741,6 +741,11 @@ section {
     .btn-group {
         justify-content: center;
     }
+    .social-media {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
     .contact-container {
         grid-template-columns: 1fr;
     }
@@ -770,6 +775,7 @@ section {
         display: block;
         font-size: 2rem;
         margin: 3rem 0;
+        text-align: center;
     }
     .home-img .img-box {
         width: 60vw;
@@ -783,5 +789,20 @@ section {
 @media (max-width: 450px) {
     html {
         font-size: 50%;
+    }
+    .home-content h1 {
+        font-size: 4rem;
+    }
+    .btn-group {
+        flex-direction: column;
+        width: 100%;
+    }
+    .btn {
+        width: 100%;
+        text-align: center;
+    }
+    .home-img .img-box {
+        width: 75vw;
+        height: 75vw;
     }
 }
